@@ -1,0 +1,16 @@
+.{
+    .fingerprint = 0xbc910580c240d500,
+    .name = .batmon,
+    .version = "0.1.0",
+    .minimum_zig_version = "0.16.0-dev.0",
+    .dependencies = .{},
+    .paths = .{
+        "AGENTS.md",
+        "README.md",
+        "build.zig",
+        "build.zig.zon",
+        "flake.nix",
+        "packaging",
+        "src",
+    },
+}

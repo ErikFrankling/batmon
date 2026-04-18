@@ -1,0 +1,12 @@
+[Unit]
+Description=batmon power collector (user mode)
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/env batmond run
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=default.target
+

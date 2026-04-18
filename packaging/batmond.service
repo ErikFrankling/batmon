@@ -1,0 +1,14 @@
+[Unit]
+Description=batmon power collector
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/env batmond run --database-path /var/lib/batmon/batmon.db
+Restart=always
+RestartSec=2
+WorkingDirectory=/var/lib/batmon
+
+[Install]
+WantedBy=multi-user.target
+

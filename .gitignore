@@ -1,0 +1,9 @@
+/.direnv
+/result
+/zig-cache
+/.zig-cache
+/zig-out
+/batmon.db
+/batmon.db-shm
+/batmon.db-wal
+.codex
